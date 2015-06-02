@@ -8,6 +8,7 @@ gem "faker"
 gem "haml-rails"
 gem "jbuilder", "~> 2.0"
 gem "jquery-rails"
+gem "normalize-rails"
 gem "sass-rails", "~> 5.0"
 gem "simple_form"
 gem "therubyracer", platforms: :ruby

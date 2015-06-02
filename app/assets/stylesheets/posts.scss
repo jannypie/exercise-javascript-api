@@ -1,3 +1,24 @@
 // -----------------------------------------------------------------------------
 // CSS related to a post
 // -----------------------------------------------------------------------------
+$imgSize: 300px;
+$gutter: 15px;
+
+.post {
+  overflow: auto;
+  margin-bottom: 3em;
+}
+
+.post img {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .post img {
+    float: left;
+  }
+
+  .post__copy {
+    padding-left: $imgSize + $gutter;
+  }
+}
