@@ -1,0 +1,8 @@
+%h2.heading--divided Add A Post
+
+= simple_form_for :post, url: "#" do |f|
+  = f.input :title
+  = f.input :excerpt
+  = f.input :body
+  = f.input :image_url
+  = f.button :submit, "Add Post"
