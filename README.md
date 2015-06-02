@@ -33,3 +33,24 @@ Visit website running on your local machine:
 You can curl the API once the server is running:
 
     curl "http://localhost:3000/api/posts"
+
+Using curl to PATCH JSON:
+```
+$ curl -X PATCH \
+  -H "Content-Type:application/json" \
+  -H "Accept:application/json" \
+  -d "
+    {\"post\":
+      {
+        \"title\": \"Foobar\"
+      }
+    }" \
+  "http://localhost:3000/api/posts/:id"
+```
+
+Using curl to fake a Rails form PATCH request:
+```
+$ curl -X POST \
+  -d "_method=PATCH&post[title]=Foobar" \
+  "http://localhost:3000/api/posts/:id"
+```
