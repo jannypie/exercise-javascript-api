@@ -54,3 +54,9 @@ $ curl -X POST \
   -d "_method=PATCH&post[title]=Foobar" \
   "http://localhost:3000/api/posts/:id"
 ```
+
+## Mockup
+
+You'll find a mockup located in here:
+
+    /docs/mockup.png
