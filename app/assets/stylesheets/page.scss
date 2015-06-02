@@ -9,10 +9,17 @@
 .pageHeader {
   background-color: #000;
   color: #fff;
+  overflow: auto;
+  padding: 0 5em;
 }
 
 .pageHeader__heading {
+  font-family: sans-serif;
 
+  span {
+    font-size: 0.75em;
+    color: gray;
+  }
 }
 
 .pageFooter {
