@@ -1,3 +1,13 @@
+## Summary
+
+Write javascript to populate home page of posts and then style to match the mockup
+
+## Mockup
+
+You'll find a mockup located in here:
+
+    /docs/mockup.png
+
 ## Requirements
 
 - Ruby 2.0+
@@ -55,8 +65,4 @@ $ curl -X POST \
   "http://localhost:3000/api/posts/:id"
 ```
 
-## Mockup
 
-You'll find a mockup located in here:
-
-    /docs/mockup.png
