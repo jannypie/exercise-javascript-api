@@ -2,6 +2,10 @@
 
 Write javascript to populate home page of posts and then style to match the mockup
 
+My js: [app/assets/javascripts/posts_api.js](app/assets/javascripts/posts_api.js)
+
+Stylesheets: [app/assets/stylesheets](app/assets/stylesheets)
+
 ## Mockup
 
 You'll find a mockup located in here:
