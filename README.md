@@ -10,7 +10,7 @@ Stylesheets: [app/assets/stylesheets](app/assets/stylesheets)
 
 You'll find a mockup located in here:
 
-    /docs/mockup.png
+[/docs/mockup.png](/docs/mockup.png)
 
 ## Requirements
 
